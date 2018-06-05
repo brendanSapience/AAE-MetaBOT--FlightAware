@@ -9,7 +9,7 @@ namespace FlightAwareTestApp
         {
             UsefulMethods methods = new UsefulMethods();
 
-            String JSONResp = methods.GetFlightInfo("DL430", "brendansapience", "21fec579110cd763138e9e797c43c1a23db27ecd", false);
+            String JSONResp = methods.GetFlightInfo("DL430", "brendansapience", "somestuff", false);
             //String JSONResp = VisibleMethods.GetAirportDelays("YUL", "brendansapience", "21fec579110cd763138e9e797c43c1a23db27ecd");
             Console.WriteLine("Debug:" + JSONResp);
             Console.ReadKey();
